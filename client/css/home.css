@@ -1,0 +1,705 @@
+.summonerDetailPage{
+    width:800px;
+    margin: 0 auto;
+    
+}
+
+.summonerDetailPage,.summonerDetailPageTabs,.summonerProfileRow,
+.summonerDetailPageContentBottomContainer,
+.summonerDetailPageContentTopContainer{
+     background-color: rgba(105,105,116,0.3);
+}
+
+
+.summonerProfileRow,.summonerDetailPageTabs,.summonerDetailPageContentGeneral,.summoneDetailPageContentChampions{
+    position:relative;
+    float:left;
+    width:100%;
+     background-color: rgba(105,105,116,0.3);
+}
+
+.summonerProfileRow{
+    height:100px;//temp
+}
+
+.summonerDetailPageTabs{
+    background-color: rgba(13,54,93,0.2);
+}
+
+.summonerTabs{
+    position:relative;
+    float:left;
+    width:25%;
+    color:#C0C0CA;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    
+}
+
+.summonerTabs_Selected{
+    background-color:#0C385C
+}
+.summonerTabs:hover{
+    background-color:#0C385C
+}
+
+
+
+
+
+/*Home_General*/
+.last20GamesSummaryContainer,.last20GamesSummarySpiderChartContainer{
+    padding-top: 30px;
+    position:relative;
+    width:50%;
+    float: left;
+}
+
+.last20GamesSummaryTitle, .last20GamesSummaryContent{
+    position:relative;
+    float:left;
+    width: 100%;
+}
+.last20GamesSummaryTitle{
+    margin-top:10px;
+}
+.titleLeftDivRTitle{
+    position:relative;
+    display:table-cell;
+     color:#448AAC;
+     margin-right:10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+.displayHeroSmall{
+    position:relative;
+    float:left;
+    color:white;
+}
+.leftDivChampions,.leftDivRoleTimes{
+    position:relative;
+    display:table-cell;
+}
+.leftDivTable{
+     position:relative;
+    float:left;
+    width:100%;
+}
+.last20GamesSummaryContent_champUseCount,.last20GamesSummaryContent_champtable,.last20GamesSummaryContent_champRow{
+    position:relative;
+    float:left;
+    width:100%;
+    height:50px;
+}
+.circleHeroDuty{
+    height:45px;
+    width: 45px;
+    border-radius:50%;
+    font-size:1em;
+    color:white;
+    text-align:center;
+    border:1px solid #0E3357;//
+    vertical-align: middle;
+    padding-top: 5px;
+    float: left;
+}
+.circleHeroDuty firstl {
+    font-size: 14px;
+}
+.circleHeroDuty secondl {
+    font-size: 8px;
+}
+
+#last20gameSummaryTable{
+    width:100%;
+}
+
+#last20gameSummaryTable thead{
+    background-color:#263F55;
+        color:white;
+        text-align: center;
+}
+#last20gameSummaryTable tbody{
+    border:1px solid #0E3357;
+     color:white;
+        text-align: center;
+}
+
+#last20gameSummaryTable tbody th{
+    border: thin solid;
+    border-color: #0C385C;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+ }
+
+.last20GamesSummaryContent_champUseCount{
+    margin-top: 2em;
+    display: table;
+}
+.theadStyle{
+    font-size: 1em;
+    padding-top:2px;
+    padding-bottom: 2px;
+    text-align:center;
+ }
+
+.titleLeftDivRTitle b{
+    font-size: 1.2em;
+ }
+
+.last20GamesSummaryContent{
+    margin-left: 1em;
+}
+ .last20GamesSummaryTitle{
+    margin-top:2em;
+    margin-left: 1.5em;
+    margin-bottom:2em; 
+    font-size: 1.2em;
+    padding-top:3px;
+    padding-bottom: 1px;
+ }
+
+.summerTabFont{
+    font-size: #263F551.2em;
+}
+
+.last20GamesSummarySpiderChart{
+    padding-left: 40px;
+}
+
+.championS5Header{
+    clear: both;
+    background-color: #263F55;
+    font-size: 1.2em;
+    text-align: center;
+    color:white;
+    font-size:1.2em;
+    margin-top:2em;
+    margin-left: 1.5em;
+    margin-bottom:2em; 
+    padding-top:3px;
+    padding-bottom: 1px;
+    
+}
+
+.generalTableHeader{
+    color:#448AAC;
+}
+
+.generalTableHeader th{
+    font-size:1.2em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#subChampionPage{
+    background-color: rgba(255,255,255, 0.05);
+    clear: both;
+    padding-bottom: 50px;
+}
+
+.table th, .table td {
+    border-top: none !important;
+    border-left: none !important;
+}
+.fixed-table-container {
+    border:0px;
+}
+
+#roleTable table tr td{
+    font-size:1em;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#championTable table tr td{
+    font-size:1em;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.img-circle {
+    border:2px solid;
+    border-color: #263F55;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.champ-img-circle{
+	border:2px solid;
+    border-color: #263F55;
+    height: 80px;
+    border-radius: 50%;
+}
+   
+.tableStrip{
+    background-color: rgba(255,255,255, 0.05);
+}
+
+#championsListTable{
+	background-color: rgba(255,255,255,0.05);
+}
+
+#champions{
+    margin-top: 50px;
+}
+
+#champions table tr td{
+    font-size:1em;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.championsTableHeader{
+    color:#448AAC;
+    background-color: rgba(255,255,255, 0.07);
+}
+
+.championsTableHeader th{
+    font-size:1.2em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.matchesTableHeader{
+    color:#448AAC;
+    background-color: rgba(255,255,255, 0.07);
+}
+
+.matchesTableHeader th{
+    font-size:1.2em;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+#matches{
+    margin-top: 50px;
+}
+
+#matches table tr td{
+    font-size:1em;
+    vertical-align: middle;
+    text-align: center;
+	color: white;
+}
+
+.filterTable{
+    margin-left: 30px;
+	margin-top: 50px;
+}
+
+.filterTable tr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.filterTable tr td{
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+	color: white;
+}
+
+.labelHighlight{
+    background-color: #448AAC;
+    border-radius: 10px;
+    display: inline-block;
+    line-height: 2em;
+}
+
+.matchTableFilterTitle p{
+    color:#448AAC;
+    font-size:1.2em;
+    vertical-align: middle;
+    text-align: left;
+}
+
+#championsTable table tr td{
+    color: white;
+}
+
+#championsTable table tr th{
+    font-size:1.2em;
+    vertical-align: middle;
+    color:#448AAC;
+}
+
+#championsFilterTableDiv{
+    background-color: rgba(255,255,255, 0.1);
+    width: 100%;
+}
+
+#championsFilterTable{
+    margin-bottom: 5px;
+}
+
+#championsFilterTable tr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#championsFilterTable tr td{
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em; 
+}
+
+
+#card{
+    float: left;
+    width:33.3%;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.videoCard{
+    position: relative;
+}
+
+#liveView{
+    position: absolute;
+    z-index: 100;
+}
+
+#playButton{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 100;
+    height: 30%;
+}
+
+#videoSubtitle{
+	height: 65px;
+    background-color: rgba(17,28,48, 1);
+}
+
+#videoSubtitle h4{
+	color: white;
+}
+
+#videoSubtitle p{
+	color: white;
+}
+
+#videoLogo{
+    border:2px solid;
+    border-color: #263F55;
+    height: 50px;
+    border-radius: 50%; 
+}
+
+#chartHeatmap{
+    margin-top: 50px;
+    width: 650px;
+    height: 650px;
+    background-image: url(../images/Layer%2015%20copy%2023.png);
+    background-size: 650px;
+}
+
+#items{
+    background-color: rgba(255,255,255, 0.05);
+    width: 100%;
+}
+
+#items table tr td{
+    color: white;
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1em;
+}
+
+.itemCardSize{
+	position: relative;
+	padding: 10px;
+	float: left;
+}
+
+.itemCard{
+    position: relative;
+/*
+    border:2px solid;
+    border-color: #263F55;
+*/
+	width: 10%;
+    padding:10px;
+    float: left;
+}
+
+.itemCard div{
+    display: none;
+}
+
+.itemCard:hover div{
+    display: block;
+    position: absolute;
+    z-index: 100;
+    left: 40px;
+    top: 0px;
+    background-color: black; 
+    width: 200px;
+    margin-top: 20px;
+}
+
+.itemCard:hover div b{
+    color: white;
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1em; 
+}
+
+.itemCard:hover div p{
+    color: white;
+    vertical-align: middle;
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1em; 
+}
+
+
+#itemBg{
+    width: 100%;
+    background-color: rgba(15,13,28, 0.7);
+    margin-top: 20px;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.flashPlayer{
+    width: 50%;
+	height: 500px;
+    margin: 0 auto;
+	vertical-align: middle;
+	padding-top: 30px;
+}
+
+.rankTableHeader{
+    color:#448AAC;  
+}
+
+.rankTableHeader th{
+    font-size:1.2em;
+    vertical-align: middle;
+	background-color: rgba(255,255,255, 0.07);
+}
+
+#rankTable tr td{
+	color:white;
+	vertical-align: middle;
+}
+
+#rankTable{
+	background-color: rgba(255,255,255, 0.05);
+}
+
+.chartsWrapper{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#heatmapHeader{
+	clear: both;
+    background-color: #263F55;
+    font-size: 1.2em;
+    text-align: center;
+    color:white;
+    font-size:1.2em;
+    margin-top:2em;
+    margin-left: 1.5em;
+    margin-bottom:2em; 
+    padding-top:3px;
+    padding-bottom: 1px;
+	width: 100%;
+}
+
+#chartLinemap{
+	margin-top: 30px;
+}
+
+.progress{
+	margin-top: 20px;
+}
+
+#championsListTable tr td{
+	vertical-align: middle;
+}
+
+#liveViewNumber{
+	position: absolute;
+	z-index: 101;
+	top:3px;
+	left:35px;
+	font-size: 1em;
+	color: white;
+}
+
+.pagin{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+#champLogo{
+	float: left;
+	padding-top: 30px;
+	width: 100px;
+}
+
+#champTitle{
+	padding-top: 20px;
+	float: left;
+}
+
+#champTitle h2{
+	color:#448AAC;
+}
+
+#champTitle b{
+	color: white;
+}
+
+#champDetailStats{
+	clear: both;
+	background-color: rgba(255,255,255, 0.07);
+	margin-top: 180px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+#champDetailStats p{
+	color: white;
+	font-size: 1em;
+}
+
+#champDetailStats h3{
+	font-size: 1.2em;
+	color:#448AAC;
+}
+
+#champDetailAbility{
+	background-color: rgba(15,13,28, 0.07);
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	
+}
+
+.abilityImg{
+	clear: left;
+	float: left;
+	width: 100px;
+}
+
+#champDetailAbilities{
+	background-color: rgba(255,255,255, 0.07);
+	margin-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;	
+	margin-bottom: 100px;
+}
+
+#champDetailAbilities h3{
+	color:#448AAC;
+	font-size: 1.2em;
+}
+
+.champDetailAbility{
+	padding-top: 30px;
+	padding-bottom: 30px;
+ 	border-bottom-style: solid;
+    border-bottom-width: 1px;
+	border-bottom-color: white;
+}
+
+.champDetailAbility h3{
+	color:#448AAC;
+	font-size: 1.2em;
+}
+
+.champDetailAbility p{
+	color: white;
+	padding-top: 10px;
+}
+
+.champDetailAbility b{
+	color:#448AAC;;
+	font-size: 1.4em;
+}
+
+.itemImgWithWidth{
+	border-style: solid;
+	border-color: rgb(0,76,225);
+	border-width: 2px;
+	border-radius: 10px;
+	width: 200px;
+}
+
+.itemImg{
+	border-style: solid;
+	border-color: rgb(0,76,225);
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+#playerScreen{
+	height: 100vh;
+	width: 100%;
+}
+
+.progressBg{
+	background-color: cyan!important;
+}
+
+#itemAnimate{
+	padding-bottom: 850px;
+}
+
+#chartOptionButtons{
+	float: right;
+	margin-top: 40px;
+	background-color: #263F55;
+}
+
+#chartOptionButtons p{
+	font-size: 1.2em;
+	color: white;
+}
+#victoryGroup{
+	background-color: rgba(255,255,255, 0.03);
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#victoryGroup b{
+	font-size: 2em;
+	color: green;
+}
+
+#defeatGroup{
+	background-color: rgba(255,255,255, 0.03);
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#defeatGroup b{
+	font-size: 2em;
+	color: red;
+}

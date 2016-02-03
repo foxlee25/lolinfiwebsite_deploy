@@ -1,0 +1,1 @@
+app.directive("lolChampiondetail",function(){return{restrict:"E",templateUrl:"templates/base/championDetail.html",transclude:!0,replace:!0,scope:!1,link:function(a,b,c){},controller:function(a,b,c){c.getChampDetail("champion_detail").success(function(b){b.spells.map(function(a){return a.image.full=a.image.full.replace(/([A-Z])/g," $1").trim(),a}),a.detail=b})}}});

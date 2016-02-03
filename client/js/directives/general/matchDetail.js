@@ -1,0 +1,1 @@
+app.directive("lolChampionsMatchDetail",function(){return{restrict:"E",templateUrl:"templates/base/general/matchDetail.html",transclude:!0,replace:!0,scope:!1,link:function(a,b,c){},controller:function(a,b,c){c.getMatchDetail().success(function(b){a.match=b})}}});
