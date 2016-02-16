@@ -1,0 +1,44 @@
+<div>
+	<style>
+		 [class^=slider] { display: inline-block; margin-bottom: 30px; left: 135px; bottom: 35px;} 
+	</style>
+	<div class="col-sm-offset-2 col-sm-8">
+		<div id="champLogo">
+			<img class="champ-img-circle" ng-src="images/champ_basic_info/{{detail.id}}/square.png" />
+		</div>
+		<div id="champTitle">
+			<h2>{{detail.name}}</h2>
+			<b>{{detail.title}}</b>
+		</div>
+		<div id="champDetailStats">
+			<h3>Statistics</h3>
+			<div id="sliderbar">
+				<h3>Level</h3>
+				<input id="data-slider" type="text" data-slider="true" data-slider-range="1,18" data-slider-step="1" data-slider-snap="true">
+			</div>
+			<div class="row">
+				<div ng-repeat = "(key,val) in detail.stats" class="col-sm-2">
+                    <div id="statLogo">
+                        <img class="stat-img-circle" ng-src="images/statIcon_sample.jpg" />
+                    </div>
+					<p id="statTitle">{{key}}</p>
+                    <p id="statVal">{{(val + 1) *champion.level | limitTo: 4}}</p>
+				</div>
+			</div>
+		</div>
+		<div id="champDetailAbilities">
+			<h3>Abilities</h3>
+			<div id="abiContent" >
+				<div class="champDetailAbility" ng-repeat="ability in detail.spells">
+					<div class="abilityImg">
+						<img class="img-square" ng-src="images/champ_basic_info/{{detail.id}}/{{ability.name}}.png" />
+					</div>
+					<div class="abilityText">
+						<b>{{ability.name}}</b>
+						<p>{{ability.description}}{{ability.sanitizedTooltip}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
