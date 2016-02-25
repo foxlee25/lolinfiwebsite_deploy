@@ -1286,7 +1286,7 @@ a {
 
 #items {
   background-color: rgba(255,255,255, 0.05);
-  width: 100%;
+  width: 810px;
 }
 
 #items table tr td {
@@ -1384,12 +1384,6 @@ a {
   padding-bottom: 80px;
 }
 
-.abilityImg {
-  clear: left;
-  float: left;
-  width: 100px;
-}
-
 .itemImg {
   border-style: solid;
   border-color: rgb(0,76,225);
@@ -1398,8 +1392,11 @@ a {
 }
 
 #playerScreen {
-  height: 100vh;
-  width: 100%;
+  position: absolute;
+  top: 80px;
+  left: -150px;
+  height: 150%;
+  width: 120%;
 }
 
 #chartOptionButtons {
@@ -1435,6 +1432,11 @@ a {
   color: red;
 }
 
+.col-sm-offset-2.col-sm-8 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 /*** uncss> filename: client/css/champions.css ***/
 
 #champions {
@@ -1462,12 +1464,14 @@ a {
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 #tbody div {
   text-align: left !important;
-  font-size: 14px;
+  font-size: 12px;
   color: #999999;
+  vertical-align: middle;
 }
 
 .matchTableFilterTitle {
@@ -1523,28 +1527,19 @@ a {
   padding-left: 20px;
   text-align: left;
   color: #cccccc !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   position: relative;
   top: 13px;
 }
 
-#championsListTable .championsListTableTitleWin {
-  text-align: center;
-  font-size: 15px;
-  color: #99cccc;
-  position: relative;
-  top: 16px;
-}
-
 #championsListTable .championsListTableTitleOthers {
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   color: #3399cc;
   position: relative;
   top: 16px;
 }
 
-#championsListTable .championsListTableTitleWin a:hover,
 #championsListTable .championsListTableTitleOthers a:hover {
   color: #99cccc;
 }
@@ -1578,6 +1573,11 @@ a {
 
 .pagin {
   right: 30px;
+}
+
+#tbody span {
+  line-height: 20px;
+  text-align: center;
 }
 
 /*** uncss> filename: client/css/championDetail.css ***/
@@ -1633,13 +1633,7 @@ a {
 }
 
 .champDetailAbility {
-  padding-top: 20px;
   padding-bottom: 20px;
-  /*
- 	border-top-style: solid;
-    border-top-width: 1px;
-	border-top-color: #333333;
-*/
 }
 
 .champDetailAbility p {
@@ -1673,7 +1667,7 @@ a {
 #abiContent {
   margin-top: 30px;
   position: relative;
-  bottom: 30px;
+  bottom: 10px;
 }
 
 .abilityImg {
@@ -1781,6 +1775,8 @@ a {
   border-radius: 8px;
   background-color: black;
   opacity: 0.9;
+  position: absolute;
+  /*    left: 500px;*/
 }
 
 #popupItemName {
@@ -1803,7 +1799,7 @@ a {
 }
 
 #itemBg {
-  width: 100%;
+  width: 810px;
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
